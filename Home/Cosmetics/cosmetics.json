@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "name": "Lancome L’absolu Rouge",
+      "brand": "Lancome",
+      "category": "trang điểm",
+      "description": "Thiết kế sang trọng tinh tế, bảng màu đa dạng phù hợp với làn da châu Á, chất son mềm mịn không làm khô môi, độ bám màu đỉnh lên đến 6-7 tiếng Lên màu chuẩn.",
+      "price": 850000,
+      "image": "../Cosmetics/Image/product/Id1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "La Roche-Posay Toleriane Sensitive Fluide",
+      "brand": "La Roche-Posay",
+      "category": "Chăm sóc da",
+      "description": "Dưỡng ẩm sâu và lâu dài cho da. Làm dịu da kích ứng, giảm đỏ. Bảo vệ da khỏi tác hại của môi trường. Phù hợp với mọi loại da, đặc biệt là da nhạy cảm.",
+      "price": 300000,
+      "image": "../Cosmetics/Image/product/id2.png"
+    },
+    {
+      "id": 3,
+      "name": "Browit Mascara",
+      "brand": "Browit",
+      "category": "Trang điểm",
+      "description": "Làm dài và tơi mi,Uốn Cong Và Dày Mi Màu, Đen Tuyền, Không Thấm Nước, Không Trôi, Không Vón Cục, Không Lem.",
+      "price": 200000,
+      "image": "../Cosmetics/Image/product/id3.png"
+    },
+    {
+      "id": 4,
+      "name": "Nước tẩy trang dịu nhẹ",
+      "brand": "Bioderma",
+      "category": "Chăm sóc da",
+      "description": "Với công nghệ micellar độc đáo, nước tẩy trang Bioderma nhẹ nhàng làm sạch da, không gây kích ứng.",
+      "price": 150000,
+      "image": "../Cosmetics/Image/product/id4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Phấn nền kiềm dầu",
+        "brand": "Innisfree No Sebum Mineral Pact",
+        "category": "Trang điểm",
+        "description": "Phấn phủ dạng nén với thành phần khoáng chất tự nhiên, giúp kiềm dầu, làm mờ lỗ chân lông và bảo vệ da.",
+        "price": 350000,
+        "image": "../Cosmetics/Image/product/id5.jpg",
+        "weight": 30,
+        "unit": "g"
+      },
+      {
+        "id": 6,
+        "name": "Serum dưỡng trắng da",
+        "brand": "The Ordinary:",
+        "category": "Chăm sóc da",
+        "description": "là một trong những sản phẩm chăm sóc da được nhiều người yêu thích bởi khả năng làm sáng da, mờ thâm nám và đều màu da hiệu quả. Với công thức đậm đặc các thành phần dưỡng chất, serum thẩm thấu sâu vào da, mang lại hiệu quả nhanh chóng và rõ rệt.",
+        "price": 400000,
+        "image": "../Cosmetics/Image/product/id6.jpg",
+        "volume": 100 ,
+        "unit": "ml"
+      }
+  ]
