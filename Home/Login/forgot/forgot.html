@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang web của tôi</title>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="Forgot.css">
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -18,25 +18,26 @@
             </div>
         </header>
 <div class="login-container">
-    <h2>Đăng nhập</h2>
+    <h2>Forgot Password</h2>
     <form action="#" method="post">
         <div class="input-group">
-            <label for="username">Tên đăng nhập</label>
-            <input type="text" id="username" name="username" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
         </div>
-        <div class="input-group">
-            <label for="password">Mật khẩu</label>
-            <input type="password" id="password" name="password" required>
+     
+        <div class="verification-code" style="display:none;"></div>
+            <label for="code">Verification Code</label>
+            <input type="text" id="code" name="code" required>
+            <button type="submit" style="display:none;">Verify Code</button>
+            <div class="login-link">
+                Remembered your password? <a href="../login.html">Login</a>
+            </div>
         </div>
-        <button type="submit">Đăng nhập</button>
-        <div class="forgot-password">
-            <a href="../Login/forgot/forgot.html">Quên mật khẩu?</a>
-        </div>
-        <div class="signup-link">
-            Bạn chưa có tài khoản? <a href="#">Đăng ký</a>
-        </div>
+      
     </form>
 </div>
+
 
       </main>
         <footer class="main-footer">
@@ -47,6 +48,6 @@
             </div>
         </footer>
         </main>
-        <script src="login.js"></script>
+        <script src="forgot.js"></script>
     </body>
     </html>
